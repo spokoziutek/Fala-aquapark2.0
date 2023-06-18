@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FalaAquapark</title>
+    <title>AquaFala</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/b170ec3cfc.js" crossorigin="anonymous"></script>
@@ -46,6 +46,9 @@
             min-height: 500px;
             background-color: #57a2d8;
             background-size: cover;
+            padding-top: calc(6rem + 74px);
+            padding-bottom: 6rem;
+            margin-bottom: 100px;
         }
 
         h1 {
@@ -100,92 +103,87 @@
             padding-top: 5px;
         }
 
-        #carousel{
-            padding-top: 100px;
-        }
     </style>
 </head>
 
 <body>
-        
-    <nav class="navbar navbar-expand-sm fixed-top" id="start">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><i class="fa-sharp fa-solid fa-water"></i> AquaFala</a>
-                
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-                
-            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#start">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">O Nas</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Cennik</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Kontakt</a>
-                    </li>
-                </ul>
-            </div>
-        </div>  
-    </nav>
+    <div class="container-fluid"> 
+        <nav class="navbar navbar-expand-sm fixed-top" id="start">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><i class="fa-sharp fa-solid fa-water"></i> AquaFala</a>
+                    
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-    <header class="masthead">
-        <div class="container h-100">
-          <div class="row h-100 align-items-center">
-            <div class="col-12 text-center">
-              <h1>AquaFala</h1>
-              <div class="divider-custom divider-light">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fa-sharp fa-solid fa-water"></i></div>
-                <div class="divider-custom-line"></div>
-              </div>
-              <p id="masthead-text">Baseny rekreacyjne - Baseny sportowe - Strefa SPA</p>
-            </div>
-          </div>
-        </div>
-      </header>
+                <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#start">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">O Nas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Cennik</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Kontakt</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>  
+        </nav>
 
-    <div class="container-fluid d-flex align-items-center flex-column" id="carousel">
-        <div id="demo" class="carousel slide carousel-fade carousel-dark" data-bs-ride="carousel">
+        <header class="masthead">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col-12 text-center">
+                    <h1 class="masthead-heading mb-0">AquaFala</h1>
+                    <div class="divider-custom divider-light">
+                        <div class="divider-custom-line"></div>
+                        <div class="divider-custom-icon"><i class="fa-sharp fa-solid fa-water"></i></div>
+                        <div class="divider-custom-line"></div>
+                    </div>
+                    <p id="masthead-text">Baseny rekreacyjne - Baseny sportowe - Strefa SPA</p>
 
-            <!-- Indicators/dots -->
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-              <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-              <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-              <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
-              <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
-            </div>
-            
-            <!-- The slideshow/carousel -->
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="1500">
-                <img class="img-fluid" src="photos/jacuzzi.jpg" alt="jacuzzi" class="d-block">
-              </div>
-
-              <div class="carousel-item" data-bs-interval="2500">
-                <img class="img-fluid" src="photos/fala.jpg" alt="basen z falą" class="d-block">
-              </div>
-
-              <div class="carousel-item" data-bs-interval="2500">
-                <img class="img-fluid" src="photos/slide.jpg" alt="zjeżdżalnie" class="d-block">
-              </div>
-
-              <div class="carousel-item" data-bs-interval="2500">
-                <img class="img-fluid" src="photos/sport.jpg" alt="basen sportowy" class="d-block">  
-              </div>
-
-              <div class="carousel-item" data-bs-interval="2500">
-                <img class="img-fluid" src="photos/solanka.jpg" alt="solanka" class="d-block">
-              </div>
-            </div>
-        </div>
+                <div class="container-fluid  align-items-center flex-column" id="carousel">
+                    <div id="demo" class="carousel slide carousel-fade carousel-dark" data-bs-ride="carousel">
+    
+                        <!-- Indicators/dots -->
+                        <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+                        </div>
+                        
+                        <!-- The slideshow/carousel -->
+                        <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="1500">
+                            <img src="photos/jacuzzi.jpg" alt="jacuzzi" class="d-block" style="width:100%">
+                        </div>
+    
+                        <div class="carousel-item" data-bs-interval="2500">
+                            <img src="photos/fala.jpg" alt="basen z falą" class="d-block" style="width:100%">
+                        </div>
+    
+                        <div class="carousel-item" data-bs-interval="2500">
+                            <img src="photos/slide.jpg" alt="zjeżdżalnie" class="d-block" style="width:100%">
+                        </div>
+    
+                        <div class="carousel-item" data-bs-interval="2500">
+                            <img src="photos/sport.jpg" alt="basen sportowy" class="d-block" style="width:100%">  
+                        </div>
+    
+                        <div class="carousel-item" data-bs-interval="2500">
+                            <img src="photos/solanka.jpg" alt="solanka" class="d-block" style="width:100%">
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </header>
     </div>
 </body>
 </html>
